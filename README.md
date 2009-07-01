@@ -23,7 +23,7 @@ Usage
 
 Use querysniffer to grab live mysql from the wire on database server or appservers, then pipe it into mystalker.rb
 
-  perl mysqlsniff-0.10.pl eth1 | ruby mystalker.rb 
+    perl mysqlsniff-0.10.pl eth1 | ruby mystalker.rb 
 
 Output
 ------
@@ -40,7 +40,7 @@ Output
       193 |       31 |        2 | SELECT * FROM global.ads
       421 |       32 |        2 | SELECT * FROM global.featured
        12 |        8 |        1 | SELECT * FROM app2.feed_specific
-       81 |       22 |        2 | SELECT * FROM app2.feed_tapulous_viewed
+       81 |       22 |        2 | SELECT * FROM app2.feed_viewed
        14 |        4 |        0 | SELECT * FROM app2.songsDefs
       121 |       48 |        2 | SELECT * FROM app2.themes
        25 |        1 |        0 | SELECT * FROM app2.rounds
@@ -62,11 +62,12 @@ Ideas for improvements include:
 * better algorithm to store/calculate counts (currently storing time for each query)
 * better ncurses code (don't wrap, deal with too many query groups)
 * ability to combine queries groups
+* documentation of code
 
 Copyright & Thanks
 ------------------
 
-This code was written while helping [tapulous](http://www.tapulous.com) scale their backend to support their popular iPhone games.
+This code was written while helping [Tapulous](http://www.tapulous.com) scale their backend to support their popular iPhone games.
 
 Copyright (c) 2009 Jesse Andrews, Tapulous Inc.
 
