@@ -28,24 +28,24 @@ Use querysniffer to grab live mysql from the wire on database server or appserve
 Output
 ------
 
-   total |   minute |    5 sec | query
-      44 |        2 |        0 | SELECT * FROM comments.boards
-      12 |        8 |        2 | SELECT * FROM points.points
-      79 |        2 |        0 | SELECT * FROM ratings.items
-      42 |        1 |        0 | SELECT * FROM app.app_descriptions
-     133 |       81 |        2 | SELECT * FROM app.notifications
-       1 |        1 |        0 | SELECT * FROM app.users
-      80 |       10 |        2 | SELECT * FROM app.users_emails
-      10 |        3 |        0 | SELECT * FROM app.users_facebook
-     193 |       31 |        2 | SELECT * FROM global.ads
-     421 |       32 |        2 | SELECT * FROM global.featured
-      12 |        8 |        1 | SELECT * FROM app2.feed_specific
-      81 |       22 |        2 | SELECT * FROM app2.feed_tapulous_viewed
-      14 |        4 |        0 | SELECT * FROM app2.songsDefs
-     121 |       48 |        2 | SELECT * FROM app2.themes
-      25 |        1 |        0 | SELECT * FROM app2.rounds
-      11 |        2 |        0 | SELECT * FROM app3.featured
-   18806 |    18806 |     2031 | SELECT is_authentic FROM app.users_authentic
+    total |   minute |    5 sec | query
+       44 |        2 |        0 | SELECT * FROM comments.boards
+       12 |        8 |        2 | SELECT * FROM points.points
+       79 |        2 |        0 | SELECT * FROM ratings.items
+       42 |        1 |        0 | SELECT * FROM app.app_descriptions
+      133 |       81 |        2 | SELECT * FROM app.notifications
+        1 |        1 |        0 | SELECT * FROM app.users
+       80 |       10 |        2 | SELECT * FROM app.users_emails
+       10 |        3 |        0 | SELECT * FROM app.users_facebook
+      193 |       31 |        2 | SELECT * FROM global.ads
+      421 |       32 |        2 | SELECT * FROM global.featured
+       12 |        8 |        1 | SELECT * FROM app2.feed_specific
+       81 |       22 |        2 | SELECT * FROM app2.feed_tapulous_viewed
+       14 |        4 |        0 | SELECT * FROM app2.songsDefs
+      121 |       48 |        2 | SELECT * FROM app2.themes
+       25 |        1 |        0 | SELECT * FROM app2.rounds
+       11 |        2 |        0 | SELECT * FROM app3.featured
+    18806 |    18806 |     2031 | SELECT is_authentic FROM app.users_authentic
 
 FIXME
 -----
